@@ -24,5 +24,6 @@ public class ABAB{
             if(flag==0)
             System.out.println("Yes");
         }
+        sc.close();
     }
 }
