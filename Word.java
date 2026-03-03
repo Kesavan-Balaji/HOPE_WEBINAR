@@ -17,6 +17,7 @@ public class Word{
         String word=sc.nextLine();
 
         System.out.println(exist(board,word)?"EXIST":"NOT-EXIST");
+        sc.close();
     }
 
     public static boolean exist(char board[][],String word){
